@@ -16,6 +16,7 @@ header {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
+  margin-top: 2rem;
 }
 
 .menu {
@@ -42,7 +43,8 @@ header {
   font-weight: 400;
 }
 nav {
+  min-height: 15%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  padding-top: 2rem;
 }

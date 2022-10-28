@@ -15,8 +15,15 @@ header {
 .menu__lista {
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
+  margin-top: 2rem;
 }
-
+nav {
+  min-height: 15%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 .menu {
   color: yellow;
   text-transform: uppercase;
