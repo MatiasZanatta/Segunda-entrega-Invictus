@@ -1,0 +1,119 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  background-color: black;
+}
+.img {
+  max-width: 100%;
+}
+.Contenedor {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1320px;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header {
+  background-color: black;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+.menu__lista {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.menu:hover {
+  opacity: 0.65;
+}
+
+.menu {
+  float: left;
+  display: flex;
+  padding: 40px 20px;
+  color: yellow;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+}
+#intro-section {
+  background-image: url(https://www.hogarmania.com/archivos/202203/beneficios-y-peligros-del-crossfit-1-668x400x80xX-1.jpg);
+  min-width: 100%;
+  min-height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+}
+.Titulo-principal {
+  text-transform: capitalize;
+  font-size: 4.5rem;
+  font-weight: 900;
+  display: flex;
+  padding: 30px;
+  color: black;
+}
+
+.Descripcion {
+  font-size: 1.4rem;
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  margin-top: 30%;
+}
+#Descargas {
+  padding: 2rem 2rem 2rem 2rem;
+}
+.Descarga {
+  text-align: center;
+  color: white;
+  margin-top: 0.7rem;
+}
+.Logo_Descarga {
+  text-align: center;
+}
+footer {
+  background-color: black;
+  padding-bottom: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+.footer-sm {
+  background-color: black;
+  text-align: center;
+}
+.footer-sm a {
+  color: white;
+}
+.footer-sm i {
+  font-size: 2rem;
+  margin-left: 1.5rem;
+}
+.footer-sm_icons {
+  text-align: center;
+}
+.footer-sm_icons :hover {
+  opacity: 0.65;
+}
+nav {
+  min-height: 15%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.Contenedor_descarga {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}

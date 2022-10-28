@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="imagenes/ProgramadorFitness.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="Css/Contacto.css" />
+    <enlace
+      href="https: //fonts.googleapis.com/css2? familia= Montserrat:peso@200;600;900 & display=swap"
+      rel="stylesheet"
+    ></enlace>
+    <title>CONTACTO</title>
+  </head>
+  <body>
+    <header>
+      <div class="Contenedor">
+        <div class="row">
+      <a href="index.html"><img src="imagenes/invictus-png.png" height="150px" alt="sin dato"/></a>
+      <nav>
+        <ul class="menu__lista">
+          <li><a class="menu" href="index.html">Inicio</a></li>
+          <li><a class="menu" href="Contacto.html"> Contacto </a></li>
+          <li><a class="menu" href="Actividades.html"> Actividades</a></li>
+          <li><a class="menu" href="Nosotros.html"> Nosotros</a></li>
+          <li>
+            <a class="menu" href="ClubDeBeneficios.html">Club de Beneficios</a>
+          </li>
+        </ul>
+      </nav>
+      </div>
+    </header>
+    <h1>Contacto</h1>
+    <form action="">
+      <fieldset>
+        <legend>Contacto</legend>
+        <label for="nombre">Nombre</label>
+        <input
+          type="text"
+          name="nombre"
+          id="nombre"
+          placeholder="Poner Nombre"
+        />
+        <br />
+        <label for="apellido">Apellido</label>
+        <input
+          type="text"
+          name="apellido"
+          id="apellido"
+          placeholder="Poner Apellido"
+        />
+
+        <br />
+
+        <div>Sexo</div>
+        Hombre <input type="radio" name="Sexo" id="Sexo" value="Hombre" />
+
+        Mujer <input type="radio" name="Sexo" id="Sexo" value="Mujer" />
+
+        <div>Terminos y condiciones</div>
+        <input type="checkbox" name="Aceptar" id="Aceptar" />
+        <br />
+
+        <select name="Actividades" id="Actividades">
+          <option value="Crossfit">Crossfit</option>
+          <option value="Musculacion">Musculacion</option>
+          <option value="Spinning">Spinning</option>
+        </select>
+
+        <label for="Mensaje">Mensaje</label>
+        <br />
+        <textarea name="Mensaje" id="Mensaje" cols="30" rows="10"></textarea>
+        <br />
+        <input type="submit" value="Enviar" />
+        <input type="reset" value="Limpiar" />
+      </fieldset>
+    </form>
+    <footer>Numero de contacto: 3472525556</footer>
+  </body>
+</html>
